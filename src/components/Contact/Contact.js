@@ -14,7 +14,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div style={{textAlign:'center', marginTop:'-25px', marginRight:'-7px', marginLeft:'-7px', textAlign: '-webkit-center'}} >
+            <div className="frontPageWrapper" >
             <img style={{width:'100%', alignItems:'center', marginBottom: '25px'}} src={HeaderImg} />
                 <div className="navDiv"  style={{marginBottom: '50px'}}>
                     <nav className="navBar">
@@ -29,7 +29,7 @@ const Contact = () => {
                         <Link to ="/allposts"><button className="navButton">All Posts</button></Link> 
                     </nav>
                 </div>
-            <div style={{ paddingTop: '50px', paddingBottom: '50px', textAlign: '-webkit-center', width: '50%', fontFamily:'Times New Roman' }}>
+            <div className="contactPage">
                 <Form className="contactWrapper" style={{marginBottom:'100px'}} >
                     <h1 style={{ color: 'black' }}>Contact Us</h1>
                     <FormGroup>

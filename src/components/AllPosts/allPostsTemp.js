@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const AllPostsTemp = () => {
   
   return (
-      <div style={{textAlign:'center', marginTop:'-25px', marginRight:'-7px', marginLeft:'-7px', textAlign: '-webkit-center'}} >
+      <div className="frontPageWrapper" >
             <img style={{width:'100%', alignItems:'center', marginBottom: '25px'}} src={HeaderImg} />
                 <div className="navDiv"  style={{marginBottom: '50px'}}>
                     <nav className="navBar">
@@ -25,8 +25,11 @@ const AllPostsTemp = () => {
                         <Link to="/contact"><button className="navButton">Contact</button></Link> 
                         <Link to ="/allposts"><button className="navButton">All Posts</button></Link> 
                     </nav>
-        </div>
+          </div>
+          <div className="AllPostsWrapper">
+
         <AllPosts />
+          </div>
         </div>
     
     )

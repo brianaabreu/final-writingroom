@@ -27,7 +27,7 @@ const FrontPage = () => {
 
     return(
         
-        <div style={{textAlign:'center', marginTop:'-25px', marginRight:'-7px', marginLeft:'-7px', textAlign: '-webkit-center'}} >
+        <div className="frontPageWrapper" style={{textAlign: '-webkit-center'}}>
             <img style={{width:'100%', alignItems:'center', marginBottom: '25px'}} src={HeaderImg} />
                 <div className="navDiv"  style={{marginBottom: '50px'}}>
                     <nav className="navBar">
