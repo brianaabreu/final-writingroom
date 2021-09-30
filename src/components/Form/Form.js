@@ -10,7 +10,7 @@ const Form = ({ currentId, setCurrentId }) => {
     function refreshPage(){
         window.location.reload();
     } 
-
+    const [currentId, setCurrentId] = useState(0);
     const [postData, setPostData] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
   const post = useSelector((state) => (currentId ? state.posts.find((message) => message._id === currentId) : null));
   const dispatch = useDispatch();
