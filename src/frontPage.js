@@ -28,7 +28,7 @@ const FrontPage = () => {
     return(
         
         <div className="frontPageWrapper" style={{textAlign: '-webkit-center'}}>
-            <img style={{width:'100%', alignItems:'center', marginBottom: '25px'}} src={HeaderImg} />
+            <img className="logo" style={{ alignItems:'center', marginBottom: '25px'}} src={HeaderImg} />
                 <div className="navDiv"  style={{marginBottom: '50px'}}>
                     <nav className="navBar">
                         <nav style={{textAlign:'left', marginBottom: '-30px',marginTop: '15px', marginLeft: '20px'}} className="linkButtons">

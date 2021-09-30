@@ -2,6 +2,11 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    margin-top: 30px;
+    width: 25%;
+}
+
 .frontPageWrapper{
     text-align:center;
     margin-top: -25px; 
@@ -110,6 +115,10 @@ body {
 
 #file-upload-button {
     color:red;
+}
+
+.features{
+    max-height: 50%;
 }
 
 .features h1 {
