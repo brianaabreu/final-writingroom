@@ -8,12 +8,13 @@ import useStyles from '../Posts/Post/styles';
 
 
 const Feature = () => {
+    const dispatch = useDispatch();
   const classes = useStyles();
 
 
   return (
 
-    <Card className={classes.card} style={{marginBottom:'30px', maxWidth: '60%', height: '50%'}}>
+    <Card className={classes.card} style={{marginBottom:'30px', maxWidth: '60%', maxHeight: '50%'}}>
       <CardMedia className={classes.media} image="https://www.bobbooks.co.uk/media/cache/photo_book_page_700/upload/e5/6b/e56b573d0cd16d7b03083d8fbc582ef219c274a7.jpeg" title="" />
       <div className={classes.overlay}>
         <Typography style={{fontSize:'12px'}} variant="h6">Briana</Typography>
